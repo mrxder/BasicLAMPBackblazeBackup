@@ -1,0 +1,12 @@
+DB_USER=dbuser
+DB_PW=dbpw
+
+B2_Bucket=backupBucketName
+keepDays=20
+
+# Databases to backup
+declare -a DATABASES=("db1" "db2")
+
+# Directories to backup <name>;<absolut path>
+declare -a LOCATIONS=("mailboxes;/var/vmail/mailboxes/" "etc;/etc/" "www;/var/www")
+
