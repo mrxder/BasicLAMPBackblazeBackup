@@ -1,5 +1,4 @@
 # BasicLAMPBackblazeBackup
-
 This is a basic backup script for a LAMP Server.
 As a backup destination, Backblaze B2 is used.
 
