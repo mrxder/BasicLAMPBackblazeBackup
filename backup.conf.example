@@ -10,3 +10,5 @@ declare -a DATABASES=("db1" "db2")
 # Directories to backup <name>;<absolut path>
 declare -a LOCATIONS=("mailboxes;/var/vmail/mailboxes/" "etc;/etc/" "www;/var/www")
 
+# Log directory - with trailing /
+logDir=/var/log/backup/
